@@ -20,6 +20,7 @@ import javax.validation.constraints.NotEmpty;
 
 import com.org.microservice.commons.alumnos.model.entity.Alumno;
 import com.org.microservice.commons.examenes.model.entity.Examen;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @Entity
 @Table(name = "cursos")
